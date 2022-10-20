@@ -14,6 +14,8 @@ body {
   color: #757575;
 }
 
+/* Header styles */
+
 .logo {
   color: var(--primary-logo-color);
   text-decoration: none;
@@ -31,6 +33,10 @@ body {
 .site-nav-link {
   color: var(--title-text-color);
   text-decoration: none;
+}
+
+.site-nav-link.current {
+  color: var(--accent-color);
 }
 
 .site-nav-link:hover,
@@ -54,6 +60,8 @@ body {
   cursor: pointer;
 }
 
+/* ----- INDEX STYLES ----- */
+
 .hero {
   background-color: var(--section-bg-color);
 }
@@ -65,4 +73,52 @@ body {
 .button.primary {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  cursor: pointer;
+}
+
+.text-title {
+  color: var(--title-text-color);
+}
+
+/* Footer styles */
+
+.footer {
+  background-color: var(--section-bg-color);
+}
+
+.footer-logo {
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+
+.footer-logo-web {
+  color: var(--accent-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.post-address {
+  text-decoration: none;
+  color: var(--primary-white-color);
+}
+
+.footer-contacts {
+  list-style: none;
+}
+
+.footer-contacts-link {
+  text-decoration: none;
+  color: var(--footer-contacts-color);
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
 }
