@@ -1,0 +1,68 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-logo-color: #000000;
+  --primary-white-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --section-bg-color: #2f303a;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.logo {
+  color: var(--primary-logo-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.site-nav {
+  list-style: none;
+}
+
+.site-nav-link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.header-contacts {
+  list-style: none;
+}
+
+.header-contacts-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.hero {
+  background-color: var(--section-bg-color);
+}
+
+.hero-text {
+  color: var(--primary-white-color);
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
