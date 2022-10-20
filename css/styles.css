@@ -80,12 +80,24 @@ body {
   cursor: pointer;
 }
 
+.values {
+  list-style: none;
+}
+
 .text-title {
   color: var(--title-text-color);
 }
 
+.activity-list {
+  list-style: none;
+}
+
 .team-section {
   background-color: var(--secondary-bg-color);
+}
+
+.team-list {
+  list-style: none;
 }
 
 /* Portfolio styles */
