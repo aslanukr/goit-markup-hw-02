@@ -84,6 +84,41 @@ body {
   color: var(--title-text-color);
 }
 
+.team-section {
+  background-color: var(--secondary-bg-color);
+}
+
+/* Portfolio styles */
+
+.filters {
+  list-style: none;
+}
+
+.filters-btn {
+  background-color: var(--secondary-bg-color);
+  color: var(--title-text-color);
+}
+
+.filters-btn:hover,
+.filters-btn:focus,
+.filters-btn:active {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  cursor: pointer;
+}
+
+.projects {
+  list-style: none;
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.projects-description {
+  color: var(--primary-text-color);
+}
+
 /* Footer styles */
 
 .footer {
