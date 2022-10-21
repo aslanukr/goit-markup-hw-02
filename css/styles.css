@@ -98,6 +98,7 @@ body {
 
 .team-list {
   list-style: none;
+  background-color: var(--primary-white-color);
 }
 
 /* Portfolio styles */
